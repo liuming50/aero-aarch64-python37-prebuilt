@@ -143,10 +143,4 @@ $ cp -rPf tmp/work/aarch64-poky-linux/python3-distro/1.7.0-r0/packages-split/pyt
 $ cp -rPf tmp/work/aarch64-poky-linux/python3-pip/19.2.3-r0/packages-split/python3-pip/usr/bin/pip3.7 usr/bin
 $ cp -rPf tmp/work/aarch64-poky-linux/python3-setuptools/41.2.0-r0/packages-split/python3-setuptools/usr/bin/easy_install-3.7 usr/bin
 $ cp -rPf tmp/work/qemuarm64-poky-linux/core-image-minimal/1.0-r0/rootfs/usr/lib/python3.7 usr/lib
-
-$ cd usr/bin
-$ ln -sf python3.7m-config-lib python3.7m-config
-$ ln -sf python3.7m-config python3.7-config
 ```
-
-
